@@ -1,4 +1,3 @@
-// send mail file
 package com.DDFramework.util;
 
 
@@ -24,6 +23,7 @@ import javax.mail.internet.MimeMultipart;
 public class SendMail
 
 {
+	public String text;
     public static void execute(String reportFileName) throws Exception
 
     {
